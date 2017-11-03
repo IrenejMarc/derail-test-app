@@ -1,0 +1,9 @@
+name "derail-test"
+description "A minimal D application."
+authors "Irenej Marc"
+copyright "Copyright © 2017, Irenej Marc"
+license "proprietary"
+
+targetType "executable"
+
+dependency "derail" version="~local"

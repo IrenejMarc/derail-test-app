@@ -1,0 +1,5 @@
+doctype 5
+h1 test
+
+p
+	| This is body
