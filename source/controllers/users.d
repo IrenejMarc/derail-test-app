@@ -8,7 +8,7 @@ class UsersController : ApplicationController
 {
 	void index()
 	{
-		response.writeBody("Helloworld");
+		format!"text/html"(() => render!"index");
 	}
 
 	void build()

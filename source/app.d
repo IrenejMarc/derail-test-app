@@ -22,8 +22,7 @@ shared static this()
 	writeln("Routes: ");
 	foreach (route; app.router.routes)
 	{
-		write(" * ");
-		writeln(route);
+		writefln(" * %s", route);
 	}
 
 	app.run();
